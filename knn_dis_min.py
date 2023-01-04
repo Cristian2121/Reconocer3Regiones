@@ -167,9 +167,9 @@ class KNNDisMin():
         """
 
         try:
-            red = float(self.e_red.get())
-            green = float(self.e_green.get())
-            blue = float(self.e_blue.get())
+            red = int(self.e_red.get())
+            green = int(self.e_green.get())
+            blue = int(self.e_blue.get())
 
             patron = np.array( (red, green, blue) )
 

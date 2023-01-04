@@ -153,7 +153,7 @@ class ArchivoCSV():
 
 if __name__ == '__main__':
     controlador = ArchivoCSV()
-
+    
     # Leer lista de archivo binario
     fichero = open("BinarioregTierra", "rb")
     # Para obtener la información binaria e interpretarla
